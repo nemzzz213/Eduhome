@@ -1,0 +1,299 @@
+*{
+    padding:0%;
+    margin:0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family:"roboto",sans-serif ;
+}
+.header_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background: linear-gradient(to right,#fff5ec,#f5eff3);
+}
+.headerleft h1{
+    color: blue;
+}
+.headermiddle ul{
+    display: flex;
+}
+
+.headermiddle ul li {
+    padding: 10px;
+    list-style: none;
+}
+.headermiddle ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+
+}
+.headerRight .search{
+    background-color: white;
+    padding: 15px;
+    margin-right: 10px;
+}
+.headerRight .profile{
+    background-color: blue;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.headerRight .profile a{
+    color: white;
+}
+.banner_container{
+    padding: 100px 250px;
+    width: 100%;
+    background: linear-gradient(to right, #ffeddf, #f5eff3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner_left{
+    width: 50%;
+}
+.banner_left .better{
+    color: blue;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-bottom: 17px;
+}
+.banner_left h1{
+    font-size: 70px;
+    width: 555px;
+    margin-bottom: 20px;
+}
+.banner_right{
+    width: 50%;
+}
+.banner_left .lorem{
+    font-size: 19px;
+    color: #908996;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+.banner_left .redirect{
+    background-color: blue;
+    padding: 17px 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    transition:2s ease-in-out ;
+}
+.banner_left .redeirect:hover{
+    background-color: rgb(7, 7, 7);
+}
+.banner_right{
+    width: 50%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.banner_right .images1{
+    width: 550px;
+    position: absolute;
+    left: 280px;
+    top: 10px;
+
+}
+.banner_right .images1 img{
+    width: 100%;
+}
+.banner_right .images2{
+    width: 270px;
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    z-index: 30;
+}
+.banner_right .image2 img{
+    width: 100%;
+}
+.banner_right .images3{
+    width: 450px;
+    position: absolute;
+    left: 110px;
+    bottom: 110px;
+}
+.banner_right .image3 img{
+    width: 100%;
+}
+.container1{
+    text-align: center;
+}
+.container2{
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+.container3{
+    font-size: 20px;
+
+}
+.divcontainer{
+    padding-left: 200px;
+}
+.cosplay{
+    background-color: blue;
+    padding: 15px 20px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.offer-container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+}
+.offer-left{
+    position: relative;
+    width: 50%;
+}
+.offer-left .offer1{
+    width:150px;
+    height: 20px;
+    position: absolute;
+    bottom: 80%;
+    /* left: 20px; */
+}
+.offer-left .offer1 img{
+    width: 100%;
+}
+.offer-left .offer2{
+    width:330px;
+    height: 120px;
+    /* z-index: 1; */
+    position: absolute;
+    left: 70px;
+}
+.offer-left .offer2 img{
+    width: 100%;
+}
+
+.offer-left .offer3{
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    right: 70px;
+    z-index: 2;
+    top: 120px;
+}
+.offer-left .offer3 img{
+    width: 100%;
+}
+.offer-right{
+    /* background-color: black; */
+    width: 50%;
+    height: 100%;
+}
+.offer-right .offer-topic .who{
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+.offer-right .offer-topic h1{
+    font-size: 48px;
+    margin-bottom: 13px;
+}
+.offer-right .content{
+    margin-bottom: 40px;
+}
+.offer-right .content main{
+    display: flex;
+    margin-top: 40px;
+}
+.offer-right .content main  .iconimage{
+    margin-right: 26px;
+    background-color: antiquewhite;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.offer-right .content2 h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.offer-right .content2 p{
+    line-height: 30px;
+}
+.offer-right .redirect{
+    background-color: blue;
+    padding: 17px 40px;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 2s ease-in-out;
+
+}
+@media screen and (max-width:400px){
+    .header_section{
+        display: none;
+    }
+    .banner_container{
+        display: none;
+    }
+    .container1{
+        display: none;
+    }
+    .item-content{
+        display: none;
+    }
+    .offer-container{
+        display: none;
+    }
+    .offer-left{
+        display: none;
+    }
+    .offer-right{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    .course_container{
+        display: none;
+    }
+}
